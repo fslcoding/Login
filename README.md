@@ -9,7 +9,9 @@ The ```public static void Main(string[] args)``` method is run when the program 
 It uses a ```do {} while()``` loop to ask the user for their details.
 If the user enters wrong information, the program will add 1 to the variable which stores the number of fails, ```numFails++;```
 
-```if (numFails == 0)``` This is an if statement, which makes it's code run _only_ on the first time executing the program.
+```if (numFails == 0)``` 
+This is an if statement, which makes it's code run _only_ on the first time executing the program.
+
 
 Once the ```do {} while()``` loop has finished it's first loop, it will check if the entered details are correct. If they are not, it goes back to the start of the loop.
 
@@ -36,21 +38,23 @@ If not, return false.
 [W3 Schools While Loops](https://www.w3schools.com/cs/cs_while_loop.php)<br>
 [W3 Schools Methods](https://www.w3schools.com/cs/cs_methods.php) <br>
 
-
-
-
-
 # Tasks
 
-***Level One***
+[_Fork this code_](https://github.com/fslcoding/HowToFork "How To Fork")
 
-+ Create a Menu to be run after logging in.
+**_Level One_**
 
-***Level Two***
++ Rewrite the code to use multiple usernames and logins. ( Maybe use an array? )
 
-+ Store user login login details in a csv file
-+ Allow the user to add new Logins
+**_Level Two_**
 
-***Level Three***
++ Store user login details in a csv file
++ Allow the user to add new logins
 
-+ Do it in winforms
+**_Level Three_**
+
++ Create a menu system, where the user can add, edit and delete logins.
+
+**_Level Four ( Hard! )_**
+
++ Use a hashing algorithm to store login details securely 
