@@ -44,7 +44,7 @@ If not, return false.
 
 **_Level One_**
 
-+ Rewrite the code to use multiple usernames and logins. ( Maybe use an array? )
++ Rewrite the code to use multiple usernames and logins. ( Maybe use an [array](https://github.com/fslcoding/Arrays)? )
 
 **_Level Two_**
 
